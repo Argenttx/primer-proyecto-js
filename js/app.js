@@ -134,3 +134,5 @@ lupa.onclick = funcionLupa;
 function funcionLupa(evt){
     evt.preventDefault()
     alert('Haha era de broma , No funciono!')
+
+}   
