@@ -3,6 +3,7 @@ const carrito = document.querySelector('#carrito');
 const contenedorCarrito = document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.querySelector('#vaciar-carrito');
 const listaCursos = document.querySelector('#lista-cursos');
+const lupa = document.querySelector('#submit-buscador');
 let articulosCarrito = [];
 
 cargarEventListeners();
@@ -124,3 +125,12 @@ function limpiarHTML(){
         contenedorCarrito.removeChild(contenedorCarrito.firstChild)
     }
 }
+
+
+//Lupa 
+
+lupa.onclick = funcionLupa;
+
+function funcionLupa(evt){
+    evt.preventDefault()
+    alert('Haha era de broma , No funciono!')
